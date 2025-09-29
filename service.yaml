@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: microservice-a
 spec:
-  type: ClusterIP # Only reachable inside the cluster
+  type: LoadBalancer # Exposes the service externally
   selector:
     app: microservice-a
   ports:
