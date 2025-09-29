@@ -16,7 +16,7 @@ spec:
         - name: microservice-a
           # IMPORTANT: This is a placeholder image.
           # The CI pipeline will replace this with the real image URL.
-          image: "europe-west1-docker.pkg.dev/sm-sandbox-467916/app-images/microservice-a:559096a"
+          image: "europe-west1-docker.pkg.dev/sm-sandbox-467916/app-images/microservice-a:e39a69e"
           resources:
             requests:
               cpu: "100m"
