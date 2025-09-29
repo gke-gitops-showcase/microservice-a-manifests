@@ -13,16 +13,16 @@ spec:
         app: microservice-a
     spec:
       containers:
-      - name: microservice-a
-        # IMPORTANT: This is a placeholder image.
-        # The CI pipeline will replace this with the real image URL.
-        image: gcr.io/google-samples/hello-app:1.0
-        resources:
-          requests:
-            cpu: "100m"
-            memory: "128Mi"
-          limits:
-            cpu: "250m"
-            memory: "256Mi"
-        ports:
-        - containerPort: 8080
+        - name: microservice-a
+          # IMPORTANT: This is a placeholder image.
+          # The CI pipeline will replace this with the real image URL.
+          image: ""
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+          ports:
+            - containerPort: 8080
